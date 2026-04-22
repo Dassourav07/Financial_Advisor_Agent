@@ -97,9 +97,9 @@ if st.button("Run Analysis"):
     for r in risks:
         st.warning(r)
 
-    st.subheader(" AI Insight")
+    st.subheader("AI Insight")
     st.write(insight["explanation"])
 
-    st.subheader(" Confidence & Score")
+    st.subheader("Confidence & Score")
     st.success(f"Confidence: {insight['confidence']}")
     st.info(f"Reasoning Score: {score}")
