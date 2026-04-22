@@ -1,0 +1,7 @@
+pandas
+numpy
+pydantic
+openai
+langfuse
+streamlit
+python-dotenv
